@@ -716,7 +716,6 @@ a#amaravati-logo {
   padding-left: 5%; }
 
 a#lotus-logo, a#alba {
-  width: 71.42857%;
   height: 71.42857%;
   display: block; }
 
@@ -761,6 +760,10 @@ a#lotus-logo, a#alba {
   padding-left: 8.20313%;
   margin-top: 0.625em;
   text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    #site-name {
+      padding-left: 0;
+      margin-bottom: 0.625em; } }
   #site-name:hover {
     text-decoration: none;
     color: #6B5853; }
@@ -769,18 +772,41 @@ a#lotus-logo, a#alba {
   position: absolute;
   bottom: -2.8125em;
   padding-left: 8.20313%; }
+  @media (min-width: 781px) and (max-width: 1000px) {
+    #site-strapline {
+      width: 49%;
+      bottom: -4.0625em; } }
+  @media screen and (max-width: 780px) {
+    #site-strapline {
+      bottom: -5.3125em;
+      width: 49%; } }
 
 #site-search {
   width: 25.39063%;
   padding-right: 7.8125%;
   margin-bottom: 1.25em;
   float: right; }
+  @media screen and (max-width: 1000px) and (min-width: 800px) {
+    #site-search {
+      width: 26.4%; } }
+  @media screen and (max-width: 800px) {
+    #site-search {
+      padding-right: 0;
+      margin-bottom: 0;
+      float: none;
+      width: inherit;
+      margin-left: 62.5%; } }
 
 #site-nav {
   width: 62.5%;
   float: right;
   padding-right: 8.59375%;
   text-align: right; }
+  @media screen and (max-width: 800px) {
+    #site-nav {
+      width: inherit;
+      padding-right: 0;
+      float: none; } }
   #site-nav .menu-icon {
     display: none; }
 
@@ -855,6 +881,9 @@ a#lotus-logo, a#alba {
   -webkit-border-image: url("/assets/border.png") 100 1 stretch;
   border-image: url("/assets/border.png") 100 1 stretch;
   padding-bottom: 16px; }
+  @media screen and (max-width: 800px) {
+    .post h1 {
+      padding-top: 1.25em; } }
 
 .post img, .page img {
   float: right;
@@ -889,6 +918,9 @@ a#lotus-logo, a#alba {
 .post-content, .page, .social-media, .leader-bio, #disqus_thread {
   max-width: 630px;
   margin-left: 25.15625%; }
+  @media (max-width: 900px) {
+    .post-content, .page, .social-media, .leader-bio, #disqus_thread {
+      margin-left: 16.79688%; } }
 
 .post-content ul li, .page ul li, .social-media ul li {
   list-style: disc; }
@@ -927,6 +959,9 @@ a.leader-social {
 .page {
   padding-top: 1.875em;
   padding-bottom: 1.875em; }
+  @media screen and (max-width: 800px) {
+    .page {
+      padding-top: 2.5em; } }
 
 #gmap {
   float: right;
@@ -960,7 +995,7 @@ a.leader-social {
   .contact-form form {
     width: 41.01563%;
     float: left;
-    padding-left: 15.78125%; }
+    padding-left: 9.6875%; }
   .contact-form ul {
     list-style-type: none; }
   .contact-form textarea {
@@ -979,8 +1014,12 @@ input[name="_gotcha"] {
 
 .contact-info {
   float: left;
-  width: 26.17188%;
+  width: 32.1875%;
   padding-left: 16.79688%; }
+  @media screen and (max-width: 820px) {
+    .contact-info {
+      padding-left: 8.04688%;
+      width: 40.78125%; } }
   .contact-info a {
     color: #F8F2F0;
     position: relative;
@@ -1006,6 +1045,9 @@ input[name="_gotcha"] {
 .meetings-list, .reading-list {
   padding-top: 1.875em;
   padding-bottom: 1.875em; }
+  @media screen and (max-width: 800px) {
+    .meetings-list, .reading-list {
+      padding-top: 2.5em; } }
   .meetings-list h1, .reading-list h1 {
     text-align: center; }
   .meetings-list li, .reading-list li {
@@ -1018,6 +1060,18 @@ input[name="_gotcha"] {
 .reading-list {
   width: 66.01563%;
   margin-left: 16.79688%; }
+  @media screen and (min-width: 901px) and (max-width: 1000px) {
+    .reading-list {
+      margin-left: 8.4375%;
+      width: 74.21875%; } }
+  @media screen and (max-width: 900px) {
+    .reading-list {
+      width: 82.8125%;
+      margin-left: 8.4375%; } }
+  @media screen and (max-width: 800px) {
+    .reading-list {
+      width: inherit;
+      margin-left: 0; } }
 
 /*Readings section */
 .recent-readings {
@@ -1037,6 +1091,12 @@ input[name="_gotcha"] {
     float: left;
     font-family: "Open Sans";
     margin-left: 8.20313%; }
+    @media only screen and (min-width: 850px) and (max-width: 1000px) {
+      .recent-readings h1 {
+        font-size: 1.625em; } }
+    @media (max-width: 850px) {
+      .recent-readings h1 {
+        width: 100%; } }
   .recent-readings time {
     display: block;
     margin-top: 0.625em;
@@ -1063,6 +1123,9 @@ input[name="_gotcha"] {
   width: 16.79688%;
   padding-left: 8.20313%;
   float: left; }
+  @media (max-width: 850px) {
+    .col3 {
+      width: 24.84375%; } }
 
 #all-readings {
   text-decoration: none;
@@ -1071,10 +1134,16 @@ input[name="_gotcha"] {
   padding-left: 8.59375%;
   float: left;
   margin-top: 10em; }
+  @media (max-width: 850px) {
+    #all-readings {
+      margin-top: 7.5em; } }
 
 h1#readings-archive {
   text-align: center;
   padding-top: 0.625em; }
+  @media screen and (max-width: 800px) {
+    h1#readings-archive {
+      padding-top: 1.25em; } }
 
 .reading-list a, .reading-list p, .reading-list h2 {
   display: inline;
@@ -1120,6 +1189,10 @@ h1#readings-archive {
   background-repeat: no-repeat;
   padding-top: 1.875em;
   padding-bottom: 1.875em; }
+  @media (max-width: 1000px) {
+    .about-us {
+      padding-top: 0;
+      padding-bottom: 0; } }
 
 .overlay {
   background-color: #6B5853;
@@ -1132,15 +1205,11 @@ h1#readings-archive {
   color: #F8F2F0;
   padding-top: 1.875em;
   padding-bottom: 1.875em; }
+  @media (max-width: 800px) {
+    .overlay {
+      padding-top: 0;
+      padding-bottom: 0; } }
 
-/*
-.overlay, .about-us{
-    @media screen and (max-width: 1100px) {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    }
-}
-*/
 /**
  * Print style sheet - prints promotional poster on the homepage and printer-friendly readings.
  */
