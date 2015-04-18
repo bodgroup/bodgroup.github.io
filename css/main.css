@@ -886,7 +886,7 @@ a#amaravati-logo {
   padding-top: 0.625em;
   width: 66.01563%;
   margin-left: 16.5625%; }
-.post h2 {
+.post h2.title {
   font-size: 2.625em;
   text-align: center;
   border-top: 0;
@@ -895,7 +895,7 @@ a#amaravati-logo {
   border-image: url("/assets/border.png") 100 1 stretch;
   padding-bottom: 1em; }
   @media only screen and (max-width: 800px) {
-    .post h2 {
+    .post h2.title {
       padding-top: 1.25em; } }
 
 .post img, .page img {
@@ -1172,19 +1172,20 @@ input[name="_gotcha"] {
     color: #F8F2F0; }
     .recent-readings a:hover {
       color: #F8F2F0; }
-  .recent-readings h1 {
+  .recent-readings h2 {
+    font-size: 2.625em;
     width: 17.03125%;
     float: left;
     font-family: "Open Sans";
     margin-left: 8.20313%; }
     @media only screen and (min-width: 850px) and (max-width: 1000px) {
-      .recent-readings h1 {
+      .recent-readings h2 {
         font-size: 1.625em; } }
     @media only screen and (max-width: 850px) {
-      .recent-readings h1 {
+      .recent-readings h2 {
         width: 100%; } }
     @media only screen and (max-width: 600px) {
-      .recent-readings h1 {
+      .recent-readings h2 {
         margin-left: 0;
         float: none;
         text-align: center;
@@ -1259,10 +1260,10 @@ h1#readings-archive {
     .reading-list time {
       display: none; } }
 
-.post-year {
+p.post-year {
   display: none; }
   @media only screen and (max-width: 800px) {
-    .post-year {
+    p.post-year {
       text-align: center;
       display: block;
       font-size: 1.25em;
