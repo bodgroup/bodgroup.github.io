@@ -886,7 +886,8 @@ a#amaravati-logo {
   padding-top: 0.625em;
   width: 66.01563%;
   margin-left: 16.5625%; }
-.post h1 {
+.post h2 {
+  font-size: 2.625em;
   text-align: center;
   border-top: 0;
   border-bottom: 5px solid transparent;
@@ -894,7 +895,7 @@ a#amaravati-logo {
   border-image: url("/assets/border.png") 100 1 stretch;
   padding-bottom: 1em; }
   @media only screen and (max-width: 800px) {
-    .post h1 {
+    .post h2 {
       padding-top: 1.25em; } }
 
 .post img, .page img {
