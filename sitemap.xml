@@ -3,7 +3,37 @@
         
         
     <url>
-        <loc>/2015/04/22/tbc/</loc>
+        <loc>/2015/05/13/tbc/</loc>
+        
+        <changefreq>weekly</changefreq>
+        
+        <priority>0.5</priority>
+    </url>
+    
+      
+        
+    <url>
+        <loc>/2015/05/06/tbc/</loc>
+        
+        <changefreq>weekly</changefreq>
+        
+        <priority>0.5</priority>
+    </url>
+    
+      
+        
+    <url>
+        <loc>/2015/04/29/practice/</loc>
+        
+        <changefreq>weekly</changefreq>
+        
+        <priority>0.5</priority>
+    </url>
+    
+      
+        
+    <url>
+        <loc>/2015/04/22/a-new-earth/</loc>
         
         <changefreq>weekly</changefreq>
         
@@ -55,7 +85,7 @@
     <url>
         <loc>/2015/03/18/learning-to-be-skillful/</loc>
         
-        <changefreq>weekly</changefreq>
+        <changefreq>yearly</changefreq>
         
         <priority>0.5</priority>
     </url>
@@ -65,7 +95,7 @@
     <url>
         <loc>/2015/03/11/worldly-winds/</loc>
         
-        <changefreq>weekly</changefreq>
+        <changefreq>yearly</changefreq>
         
         <priority>0.5</priority>
     </url>
@@ -75,7 +105,7 @@
     <url>
         <loc>/2015/03/04/four-noble-truths/</loc>
         
-        <changefreq>weekly</changefreq>
+        <changefreq>yearly</changefreq>
         
         <priority>0.5</priority>
     </url>
