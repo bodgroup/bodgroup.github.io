@@ -911,9 +911,9 @@ a#amaravati-logo {
       padding-right: 0;
       float: left; } }
 
-.post-nav h5 {
-  display: inline; }
 .post-nav li {
+  font-size: 0.8125em;
+  font-family: "Gloria Hallelujah";
   display: inline-block;
   padding-top: 3.75em;
   float: left; }
@@ -956,15 +956,6 @@ a#amaravati-logo {
 .post-content ol li, .page ol li, .social-media ol li {
   list-style: decimal; }
 
-.post-year {
-  display: none; }
-  @media only screen and (max-width: 800px) {
-    .post-year {
-      text-align: center;
-      display: block;
-      padding-top: 0.625em;
-      padding-bottom: 0.625em; } }
-
 .reading-author {
   float: right; }
 
@@ -990,24 +981,17 @@ a#amaravati-logo {
     width: 20%;
     height: 20%;
     border-radius: 10%; }
-    @media only screen and (max-width: 500px) {
-      .leader-bio img, .about-us-bio img {
-        width: auto;
-        height: auto;
-        float: none; } }
 
 a.leader-social {
   padding-left: 5%; }
 
-.desktop {
-  display: inline; }
-  @media only screen and (max-width: 600px) {
-    .desktop {
-      display: none; } }
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none; } }
 
 .mobile {
   display: none; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .mobile {
       display: inline; } }
 
@@ -1273,6 +1257,16 @@ h1#readings-archive {
   @media screen and (max-width: 800px) {
     .reading-list time {
       display: none; } }
+
+.post-year {
+  display: none; }
+  @media only screen and (max-width: 800px) {
+    .post-year {
+      text-align: center;
+      display: block;
+      font-size: 1.25em;
+      padding-top: 0.625em;
+      padding-bottom: 0.625em; } }
 
 .sign-up {
   padding-top: 1.875em;
