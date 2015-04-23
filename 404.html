@@ -46,15 +46,18 @@
 
 <meta property="og:title" content="404" />
 <meta property="og:site_name" content="Bodhinaya Meditation Group, Amaravati Buddhist Monastery, Hemel Hempstead" />
-<meta property="og:url" content="http://www.bodhinyanagroup.org.uk" />
+<meta property="og:url" content="http://www.bodhinyanagroup.org.uk/404.html" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="en_GB" />
-<meta property="og:image" content="/assets/cusions.jpg" />
+<meta property="og:image" content="http://www.bodhinyanagroup.org.uk/assets/cusions.jpg" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1412" />
 <meta property="og:image:height" content="582" />
-<meta property="og:description" content="site.description" />
-<meta property="og:app_id" content="438913016273899" />
+
+<meta property="og:description" content="We are a group of lay Buddhists and people interested in Buddhism who meet to meditate and discuss Buddhist practice at Amaravati Buddhist Monastery on Wednesday evenings at 7.30pm to 9.20pm. We welcome anyone who is interested in Buddhism, including those who are new to Buddhism or new to Amaravati. Our discussions focus on understanding the Buddhist teachings and how we can apply them in our lives. We meet in the Bodhinyana Hall." />
+
+<meta property="fb:app_id" content="1083034281713204" />
+
  
  <script>
 // Picture element HTML5 shiv
@@ -74,8 +77,28 @@ document.createElement( "picture" );
 
 <body>
     <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+     <![endif]-->
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1083034281713204',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_GB/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
     <div class="wrapper">
     <header id="site-header">
     <a href="http://www.bodhinyanagroup.org.uk" id="site-name">Bodhinyana Group</a>
@@ -157,6 +180,8 @@ document.createElement( "picture" );
     </h4>
 </header>
 
+    <article class="page">
+    <h1>404</h1>
     <h2 id="erm">Erm…</h2>
 
 <p>The page you’re looking for doesn’t seem to exist. </p>
@@ -164,6 +189,50 @@ document.createElement( "picture" );
 <p>Maybe the link has changed or there’s a typo in the address you entered.</p>
 
 <p>Try the search box if all else fails.</p>
+
+ </article>
+
+    <aside class="contact-form" id="contact-info">
+<div class="container">
+    <div class="contact-info">
+        <p> Have a question?</p>
+        <p>Want to lead a meeting?</p>
+        <br/>
+        <p>Drop us a line</p>
+        <br/>
+        <a href="mailto:martin.evans350@ntlworld.com"><i class="fa fa-envelope-o fa-fw">
+        </i> martin.evans350@ntlworld.com</a>
+        <a href="tel:01442409844"><i class="fa fa-phone fa-fw"></i> 01442 409 844</a>
+    </div>
+    <form method="POST" action="http://formspree.io/martin.evans350@ntlworld.com">
+        <ul>
+            <li>
+                <label>Name</label>
+                <input type="text" name="name" />
+            </li>
+            <li>
+                <label>Email</label>
+                <input type="email" name="email" required/>
+            </li>
+            <li>
+                <label>
+                    Telephone (Optional)</label>
+                <input type="tel" name="telephone" />
+            </li>
+            <li>
+                <label>What would you like to talk to us about?</label>
+                <textarea name="message" rows="10"></textarea>
+            </li>
+            <li>
+                <input type="hidden" name="_subject" value="New submission via the Bodhinyana group contact form" />
+                <input type="text" name="_gotcha" />
+                <input type="hidden" name="_next" value="http://www.bodhinyanagroup.org.uk/#contact-info" />
+                <input type="submit" value="Send" />
+            </li>
+        </ul>
+    </form>
+</div>
+</aside>
 
     <footer>
 <ul class="community">

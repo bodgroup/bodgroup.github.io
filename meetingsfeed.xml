@@ -7,38 +7,19 @@
     <copyright>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</copyright>
     <link>http://www.bodhinyanagroup.org.uk/</link>
     <atom:link href="http://www.bodhinyanagroup.org.uk/meetingsfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Apr 2015 18:05:00 +0100</pubDate>
-    <lastBuildDate>Sat, 18 Apr 2015 18:05:00 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Apr 2015 10:28:00 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2015 10:28:00 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     <managingEditor>martin.evans350@ntlworld.com(Martin Evans) </managingEditor>
     <webMaster>helencalderon@gmail.com (Helen Calderon)</webMaster>
     
-     
-    
-     
-    
-     
-    
-     
     
     
-      <item>
-        
-        <title>A New Earth by Eckhart Tolle</title>
-        
-        
-        <pubDate>Wed, 22 Apr 2015 20:30:00 +0100</pubDate>
-        <link>http://www.bodhinyanagroup.org.uk/2015/04/22/a-new-earth/</link>
-        
-        <guid isPermaLink="true">http://www.bodhinyanagroup.org.uk/2015/04/22/a-new-earth/</guid>
-        
-        
-        
-         
-               <dc:creator>Sara Quinn</dc:creator>
-         
-      </item>
-      
+    
+    
+    
+    
+    
     
     
       <item>
@@ -47,57 +28,75 @@
         
         
         <pubDate>Wed, 29 Apr 2015 20:30:00 +0100</pubDate>
-        <link>http://www.bodhinyanagroup.org.uk/2015/04/29/practice/</link>
         
+        <link>http://www.bodhinyanagroup.org.uk/2015/04/29/practice/</link>
         <guid isPermaLink="true">http://www.bodhinyanagroup.org.uk/2015/04/29/practice/</guid>
         
         
         
          
                <dc:creator>Nevyn Keating</dc:creator>
-         
+        
       </item>
-      
+     
     
     
       <item>
         
-        <title>TBC</title>
+        <title>Peace</title>
         
         
         <pubDate>Wed, 06 May 2015 20:30:00 +0100</pubDate>
-        <link>http://www.bodhinyanagroup.org.uk/2015/05/06/tbc/</link>
         
-        <guid  isPermaLink="false">http://www.bodhinyanagroup.org.uk/2015/05/06/tbc/</guid>
-        
-        
+        <link>http://www.bodhinyanagroup.org.uk/2015/05/06/peace/</link>
+        <guid isPermaLink="true">http://www.bodhinyanagroup.org.uk/2015/05/06/peace/</guid>
         
         
-               <dc:creator>Volunteer to lead this meeting</dc:creator>
-
+        
          
+               <dc:creator>Annmarie McKay</dc:creator>
+        
       </item>
-      
+     
     
     
       <item>
         
-        <title>TBC</title>
+        <title>Altruistic Buddhism</title>
         
         
         <pubDate>Wed, 13 May 2015 20:30:00 +0100</pubDate>
-        <link>http://www.bodhinyanagroup.org.uk/2015/05/13/tbc/</link>
         
-        <guid  isPermaLink="false">http://www.bodhinyanagroup.org.uk/2015/05/13/tbc/</guid>
+        <link>http://www.bodhinyanagroup.org.uk/2015/05/13/altruistic-buddhism/</link>
+        <guid isPermaLink="true">http://www.bodhinyanagroup.org.uk/2015/05/13/altruistic-buddhism/</guid>
+        
+        
+        
+         
+               <dc:creator>Symon Price</dc:creator>
+        
+      </item>
+     
+    
+    
+      <item>
+        
+        <title>Tbc</title>
+        
+        
+        <pubDate>Wed, 20 May 2015 20:30:00 +0100</pubDate>
+        
+        <link>http://www.bodhinyanagroup.org.uk#contact-info</link>
+        <guid  isPermaLink="false">http://www.bodhinyanagroup.org.uk/2015/05/20/tbc/</guid>
         
         
         
         
                <dc:creator>Volunteer to lead this meeting</dc:creator>
 
-         
+        
       </item>
-      
+     
     
   </channel>
 </rss>
