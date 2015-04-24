@@ -954,6 +954,8 @@ a#amaravati-logo {
 
 .post-content ul li, .page ul li, .social-media ul li {
   list-style: disc; }
+.post-content ul.no-bullet li, .page ul.no-bullet li, .social-media ul.no-bullet li {
+  list-style: none; }
 .post-content ol li, .page ol li, .social-media ol li {
   list-style: decimal; }
 
@@ -1354,13 +1356,13 @@ p.post-year {
  * Print style sheet - prints promotional poster on the homepage and printer-friendly readings.
  */
 @media print {
-  #site-search, .sign-up, .contact-form, footer, .main nav, .recent-readings, .leader-bio, .social-media, #disqus_thread, #site-nav, .post-nav {
+  #site-search, .sign-up, .contact-form, footer, .main nav, .recent-readings, .leader-bio, .social-media, #disqus_thread, #site-nav, .post-nav, .leader-name {
     display: none; }
 
-  body, a, h1, h2, h3, h4, h5, ul, li, p {
+  body, a, h1, h2, h3, h4, h5, ul, li, p, article, blockquote {
     color: #000 !important;
     overflow: visible;
-    float: none; }
+    float: none !important; }
 
   p {
     font-size: 14pt;
@@ -1378,13 +1380,9 @@ p.post-year {
   @page {
     size: 21cm 29.7cm;
     margin-top: 3.125cm;
-    margin-bottom: 5cm; }
-  @page :left {
+    margin-bottom: 5cm;
     margin-right: 3.125cm;
     margin-left: 5cm; }
-  @page :right {
-    margin-left: 3.125cm;
-    margin-right: 5cm; }
   .meetings-list {
     border-top: 0;
     border-bottom: 5px solid transparent;
@@ -1419,18 +1417,32 @@ p.post-year {
   article a {
     font-weight: bold; }
 
-  article, .post-summary, .post-content, .page, .social-media {
+  article, .post-summary, .post-content, .page, .social-media, .post header {
     margin-left: 0;
     max-width: none;
+    width: inherit;
     margin-right: 0; }
-    article a[href^="http"]:after, .post-summary a[href^="http"]:after, .post-content a[href^="http"]:after, .page a[href^="http"]:after, .social-media a[href^="http"]:after {
+    article a[href^="http"]:after, .post-summary a[href^="http"]:after, .post-content a[href^="http"]:after, .page a[href^="http"]:after, .social-media a[href^="http"]:after, .post header a[href^="http"]:after {
       content: " (" attr(href) ") "; }
 
   #site-header {
     margin: 0;
-    max-width: none; }
+    max-width: none;
+    padding-top: .25cm;
+    padding-right: 1cm;
+    padding-bottom: 0; }
 
-  h2, h3 {
+  #site-strapline {
+    bottom: -2cm; }
+
+  .title {
+    text-align: left;
+    padding-top: 1cm; }
+
+  .wrapper {
+    padding-top: 0; }
+
+  h2 {
     page-break-after: avoid; }
 
   p, h2, h3 {
