@@ -1406,6 +1406,14 @@ p.post-year {
       display: table;
       clear: both; }
 
+  section.meetings-list, section.about-us, div.overlay {
+    margin: 0;
+    padding: 0;
+    width: inherit; }
+
+  section.meetings-list {
+    margin-top: 2cm; }
+
   #qr-code {
     position: absolute;
     right: 1.7cm; }
